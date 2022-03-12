@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+}
+/* en tete */
+header{
+    background-color:  #d35649;
+    height: 10vh;
+
+} 
+header .flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo */
+header .flex1 .logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+nav a:hover{
+    color: #444;
+}
+.logo a{
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+ nav a{
+    padding-right: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+nav a i{
+    padding-right: 1em;
